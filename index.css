@@ -133,19 +133,19 @@ h1.title-text {
 }
 
 .bubble-one {
-  background: url("./wetransfer_pngovi-za-sekcije_2025-01-11_1831/sekcija\ jedan.png") round;
+  background: url("./skecija-bubble-slike/sekcija\ jedan.png") round;
 }
 
 .bubble-two {
-  background: url("./wetransfer_pngovi-za-sekcije_2025-01-11_1831/sekcija\ dva.png") round;
+  background: url("./skecija-bubble-slike/sekcija\ dva.png") round;
 }
 
 .bubble-three {
-  background: url("./wetransfer_pngovi-za-sekcije_2025-01-11_1831/sekcija\ tri.png") round;
+  background: url("./skecija-bubble-slike/sekcija\ tri.png") round;
 }
 
 .bubble-four {
-  background: url("./wetransfer_pngovi-za-sekcije_2025-01-11_1831/sekcija\ cetiri.png") round;
+  background: url("./skecija-bubble-slike/sekcija\ cetiri.png") round;
 }
 
 .bubble-text-left, .bubble-text-right {
@@ -201,18 +201,6 @@ h1.title-text {
   width: 25%;
   margin-bottom: 200px;
   text-align: left;
-}
-
-@keyframes fadeLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
 }
 
 .gif-container {
