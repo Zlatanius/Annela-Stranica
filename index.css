@@ -109,7 +109,7 @@ h1.title-text {
 }
 
 
-.bubble-container, .akcija-container {
+.bubble-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -164,10 +164,23 @@ h1.title-text {
   transform: translateX(300px);
 }
 
+.bubble-container a {
+  text-decoration: none;
+}
+
 .bubble > p {
   color: #3d8038;
   font-family: "Outline", sans-serif;
   font-weight: bold;
+}
+
+.akcija-container {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    flex-direction: column;
+    place-items: center;
+    padding-top: 100px;
 }
 
 .akcija-section-title {
