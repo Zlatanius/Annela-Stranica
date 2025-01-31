@@ -320,4 +320,9 @@ body{
   .drvo-gif {
     width: 33.33%;
   }
+
+  .lightbox .close {
+    top: auto;
+    bottom: 30px;
+  }
 }
